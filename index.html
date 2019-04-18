@@ -47,7 +47,7 @@ html, body{
   
 <div class="block">
   <img src="https://pindell.mcachicago.org/wp-content/uploads/2018/02/AM_PindellScan_008_99-11.jpg" data-speed="-1" class="img-parallax">
-  <h2>title</h2>
+  <h2>howardena pindell: what remains to be seen</h2>
 </div>
 <div class="block">
   <img src="https://pindell.mcachicago.org/wp-content/uploads/2018/02/AM_HP_GG_Archival_03_99-11.jpg" data-speed="1" class="img-parallax">
@@ -96,7 +96,7 @@ $('.img-parallax').each(function(){
       // Porcentage between start showing until disappearing
       var imgPercent = ((imgBottom / imgTop) * 100) + (50 - (speed * 50));
     }
-    ('img').css({
+    img.css({
        top: imgPercent + '%';
        transform: 'translate(-50%, -' + imgPercent + '%)';
     });
