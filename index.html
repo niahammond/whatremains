@@ -40,10 +40,14 @@ html, body{
   transform: translate(-50%,0);
   pointer-events: none
 }
- </style>
+ </style>  
+</head>
+  
+<body>
 <!-- javascript -->
-  <script>
-    $('.img-parallax').each(function(){
+<script>
+
+$('.img-parallax').each(function(){
   var img = $(this);
   var imgParent = $(this).parent();
   function parallaxImg () {
@@ -79,11 +83,8 @@ html, body{
     }
   });
 });
-  </script>
-  
-</head>
-  
-<body>
+</script>
+
 <div class="block">
   <img src="https://unsplash.it/1920/1920/?image=1005" data-speed="-1" class="img-parallax">
   <h2>Parallax Speed -1</h2>
