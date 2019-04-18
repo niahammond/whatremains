@@ -96,7 +96,7 @@ $('.img-parallax').each(function(){
       // Porcentage between start showing until disappearing
       var imgPercent = ((imgBottom / imgTop) * 100) + (50 - (speed * 50));
     }
-    img.css({
+    'img'.css({
        top: imgPercent + '%';
        transform: 'translate(-50%, -' + imgPercent + '%)';
     });
