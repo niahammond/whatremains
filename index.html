@@ -195,13 +195,18 @@ publication pdf lightbox
     <h1>publication</h1>
 	<!-- pdf lightbox?-->
 <script>
-$("a.iframe").fancybox({
+$(document).ready(function() {
+/* Apply fancybox to multiple items */
+
+$("iframe").fancybox({
 'width': 640, // or whatever you want
 'height': 480, // or whatever you want
 'type': 'iframe'
 });
+
+});
 </script>
-	<p><a class="iframe" href="https://www.dropbox.com/s/ie87wf54t6c83ra/03_wrtbs_pub_final.pdf?dl=0">Zero</a></p>
+	<iframe src="https://www.dropbox.com/s/ie87wf54t6c83ra/03_wrtbs_pub_final.pdf?dl=0"</iframe>
 </div>
 <!-- old stuff ! ! !
 <div class="block">
